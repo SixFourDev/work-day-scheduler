@@ -6,8 +6,8 @@ $(document).ready(function () {
 });
 
 $(function () {
-
-  $(document).ready(function () {
+  
+  function userEntry() {
     // Retrieve user input from text area and save to local storage on button click
     $(".saveBtn").on("click", function () {
       // Gets description from "this" sibling 
@@ -17,7 +17,11 @@ $(function () {
       // Saves userInput from the timeBlockId to the localStorage
       localStorage.setItem(timeBlockId, userInput);
     });
-  });
+  }
+  
+  userEntry();
+});
+
 
 
 
@@ -32,7 +36,7 @@ $(function () {
   //   the values of the corresponding textarea elements. HINT: How can the id
   //   attribute of each time-block be used to do this?
 
-});
+
 
 // This function displays the current date and time in the header of the webpage
 function updateTime() {
