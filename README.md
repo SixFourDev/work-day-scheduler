@@ -14,6 +14,8 @@ This webpage was created to help users organize their busy schedule by allowing 
 
 <img width="1123" alt="Screen Shot 2023-05-01 at 1 24 59 PM" src="https://user-images.githubusercontent.com/127274865/235524839-d47d79be-85d8-4859-96d3-0fa42ae36500.png">
 
+https://sixfourdev.github.io/work-day-scheduler/
+
 ## Credits
 
 Shane Browning - github.com/SixFourDev
