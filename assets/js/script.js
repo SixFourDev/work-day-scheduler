@@ -23,7 +23,7 @@ function timeBlockColor() {
 
   // Selects the class "time-block, and uses the each method to iterate over each of them"
   $(".time-block").each(function () {
-    // Gets id from the current "time-block" element by using split to take away the dash
+    // Gets id from the current "time-block" element by "this", using split to take away the dash
     // in hour, and selecting the hour part. parseInt is used to convert the hour string to an integer.
     var blockHour = parseInt(this.id.split("-")[1]);
     // "this" line toggles the class "past" on the current time block and sets it less than the current hour
